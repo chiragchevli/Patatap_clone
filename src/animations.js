@@ -2623,7 +2623,7 @@ window.animations = (function() {
         return _.isArray(o.sounds);
       });
 
-      var type = letters[0];
+      var type = letters[current];
       var $lobby = $('#lobby');
       var $loaded = $lobby.find('#loaded');
       var $totalAssets = $lobby.find('#total-assets');
